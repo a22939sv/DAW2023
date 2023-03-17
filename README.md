@@ -46,7 +46,7 @@ docker run -p 8080:8080  price-api
 
 - Puedes levantarlo "a mano" mediante los siguientes comandos:
 
-```
+```bash
   # requerimientos: node y npm instalado en el equipo
   npm install
   npm start

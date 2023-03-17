@@ -99,18 +99,3 @@ http://localhost:8080/products
 
 - Realiza un fork de este repositorio. Será el repositorio que tu utilices y sobre el que nosotros haremos el seguimiento de tu prueba. Si no controlas a nivel básico git & github, mira algo de documentación.
 
-### Script obtención datos para la prueba
-
-El script de generación del listado y las instrucciones de uso del mismo por si te viene bien modificar algo.
-Listado de las mejores películas en imdb. El resultado de la ejecución del script está en el fichero _pelis.json_
-
-Se utiliza python 3.
-
-Forma de ejecución:
-
-```
-pip install -r requirements.txt # instalación de dependencias
-python imdb.py # ejecución de script
-```
-
-El resultado de la ejecución del script se muestra el fichero _pelis.json_

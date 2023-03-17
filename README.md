@@ -7,12 +7,12 @@ Repositorio para la prueba de Aragon skills 2023
 Huesca, Palacio de Congresos, Sala Polivalente.
 
 ### 21 de marzo de 2023
+
 De 15.00 a 16.00 horas: Acreditación participantes y tutores
 
 De 16.00 a 17.00 horas: Comprobación de herramientas y adaptación al puesto
 
 De 17.00 a 20.00 horas: Competición (3 horas). Módulo I: Planificación, material gráfico y diseño web (25%)
-
 
 ### 22 de marzo de 2023
 
@@ -23,6 +23,7 @@ De 9.30 a 13.30 horas
 De 15.30 a 19.30 horas
 
 ### 23 de marzo de 2023
+
 De 09.00 a 14.00 horas: Competición (5 horas). Módulo III: Tests, despliegue en servidor y control de versiones (25%)
 
 De 17.00 a 19.00 horas: Entrega de diplomas y medallas.
@@ -34,12 +35,21 @@ Los detalles de la prueba todavía se publicarán cada día aquí.
 ## PASOS PREVIOS
 
 - Utilizaremos como fuente de datos para la prueba el repositorio https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small.
-- Utilizaremos como fuente adicional de datos la API realizada mmediante un servidor express de node.js y que está dockerizada y situada en la carpeta _pre_ . Para ejecutarla deberás tener docker instalado en una máquina con kernel de linux. También puedes observarr eextraer los datos y utilizarlos de cualquier otra forma):
+- Utilizaremos como fuente adicional de datos la API realizada mmediante un servidor express de node.js y que está situada en la carpeta _pre_ . Puedes levantar el servicio como un contenedor con los siguientes comandos:
 
 ```bash
+# requerimientos equipo linux y docker instalado
 cd pre
 docker build -t price-api .
 docker run -p 8080:8080  price-api
+```
+
+- Puedes levantarlo "a mano" mediante los siguientes comandos:
+
+```
+  # requerimientos: node y npm instalado en el equipo
+  npm install
+  npm start
 ```
 
 - Obtención de precio para un producto con id 8509:

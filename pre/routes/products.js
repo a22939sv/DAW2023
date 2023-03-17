@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const data = require('../data/prices.json')
+const data = require('./prices.json')
 
 /* GET products listing. */
 router.get('/', function (req, res, next) {

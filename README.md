@@ -34,7 +34,7 @@ Los detalles de la prueba todavía se publicarán cada día aquí.
 ## PASOS PREVIOS
 
 - Utilizaremos como fuente de datos para la prueba el repositorio https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small.
-- Utilizaremos como fuente adicional de datos la API dockerizada situada en la carpeta _pre_ (puedes extraer los datos y utilizarlos de cualquier otra forma):
+- Utilizaremos como fuente adicional de datos la API realizada mmediante un servidor express de node.js y que está dockerizada y situada en la carpeta _pre_ . Para ejecutarla deberás tener docker instalado en una máquina con kernel de linux. También puedes observarr eextraer los datos y utilizarlos de cualquier otra forma):
 
 ```bash
 cd pre

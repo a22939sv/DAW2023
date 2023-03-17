@@ -6,17 +6,25 @@ Repositorio para la prueba de Aragon skills 2023
 
 Huesca, Palacio de Congresos, Sala Polivalente.
 
-21 de marzo de 2023
+### 21 de marzo de 2023
 De 15.00 a 16.00 horas: Acreditación participantes y tutores
+
 De 16.00 a 17.00 horas: Comprobación de herramientas y adaptación al puesto
+
 De 17.00 a 20.00 horas: Competición (3 horas). Módulo I: Planificación, material gráfico y diseño web (25%)
 
-22 de marzo de 2023 - Competición (8 horas). Módulo II: Programación (frontend y backend) y bbdd (50%)
+
+### 22 de marzo de 2023
+
+Competición (8 horas). Módulo II: Programación (frontend y backend) y bbdd (50%)
+
 De 9.30 a 13.30 horas
+
 De 15.30 a 19.30 horas
 
-23 de marzo de 2023
+### 23 de marzo de 2023
 De 09.00 a 14.00 horas: Competición (5 horas). Módulo III: Tests, despliegue en servidor y control de versiones (25%)
+
 De 17.00 a 19.00 horas: Entrega de diplomas y medallas.
 
 ## PRUEBA

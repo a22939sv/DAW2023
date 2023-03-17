@@ -65,7 +65,7 @@ http://localhost:8080/products
   - Si surge un problema/aclaración de la prueba durante la competición se informará por igual a todos los participantes para estar en igualdad de condiciones.
 - Al final
 
-## RECOMNENDACIONES
+## RECOMENDACIONES
 
 - **Trae el portatil ya configurado** con tu editor preferido, git, etc. La organización te proporcionará una pantalla adicional.
 

@@ -48,7 +48,7 @@ const Home = () => {
         </div>
         <div className="row mt-5">
           <ClothesListHeading
-            heading="Listado de Ropa Masculina"
+            heading="Listado de Ropa Femenina"
             gender="Women"
           />
         </div>

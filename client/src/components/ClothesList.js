@@ -4,7 +4,7 @@ const ClothesList = (props) => {
   const [data, setData] = useState([]);
 
   const formatData = (clothes) => {
-    setData(clothes.slice(0, 35));
+    setData(clothes.slice(0, 50));
   };
 
   useEffect(() => {

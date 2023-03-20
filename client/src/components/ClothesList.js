@@ -21,11 +21,11 @@ const ClothesList = (props) => {
             >
               <img
                 src={`/images/${product[0]}.jpg`}
-                title={product[4]}
-                alt={product[4]}
+                title={product[9]}
+                alt={product[9]}
                 width="150px"
               ></img>
-              <h4>{product[4]}</h4>
+              <h4>{product[9]}</h4>
             </div>
           ))
         : ""}

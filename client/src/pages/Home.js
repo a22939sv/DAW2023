@@ -38,22 +38,16 @@ const Home = () => {
           <Carousel />
         </div>
         <div className="row mt-5">
-          <ClothesListHeading
-            heading="Listado de Ropa Masculina"
-            gender="Men"
-          />
+          <ClothesListHeading heading="Listado de Ropa Masculina" />
         </div>
         <div className="row d-flex">
-          <ClothesList clothes={data} />
+          <ClothesList clothes={data} gender="Men" />
         </div>
         <div className="row mt-5">
-          <ClothesListHeading
-            heading="Listado de Ropa Femenina"
-            gender="Women"
-          />
+          <ClothesListHeading heading="Listado de Ropa Femenina" />
         </div>
         <div className="row d-flex">
-          <ClothesList clothes={data} />
+          <ClothesList clothes={data} gender="Women" />
         </div>
       </main>
       <footer className="pieDePagina py-3 mt-4 text-white">

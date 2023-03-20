@@ -12,13 +12,12 @@ const ClothesList = (props) => {
   }, [props.clothes]);
 
   return (
-    <div className="g-0 text-black row capa">
+    <div className="g-0 text-black row capa d-flex align-items-center justify-content-center">
       {data.length !== 0
         ? data.map((product, index) => (
             <div
               key={index}
               className="image-container d-flex flex-column align-items-center justify-content-center m-3"
-              width="180px"
             >
               <img
                 src={`/images/${product[0]}.jpg`}

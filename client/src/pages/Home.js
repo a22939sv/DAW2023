@@ -38,7 +38,19 @@ const Home = () => {
           <Carousel />
         </div>
         <div className="row mt-5">
-          <ClothesListHeading heading="Listado de Ropa Masculina" />
+          <ClothesListHeading
+            heading="Listado de Ropa Masculina"
+            gender="Men"
+          />
+        </div>
+        <div className="row d-flex">
+          <ClothesList clothes={data} />
+        </div>
+        <div className="row mt-5">
+          <ClothesListHeading
+            heading="Listado de Ropa Masculina"
+            gender="Women"
+          />
         </div>
         <div className="row d-flex">
           <ClothesList clothes={data} />

@@ -9,16 +9,16 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'rm -rf DAW2023'
-                sh 'git clone https://github.com/a22939sv/DAW2023.git'
+                // sh 'rm -rf DAW2023'
+                // sh 'git clone https://github.com/a22939sv/DAW2023.git'
                 sh 'cd DAW2023/client && npm install'
             }
         }
-        // stage('Test') {
-        //     steps {
-        //         sh './Projects-React/react-front-app/jenkins/scripts/test.sh'
-        //     }
-        // }
+        stage('Test') {
+            steps {
+                sh 'npm test'
+            }
+        }
         // stage('Deliver') {
         //     steps {
         //         //sh 'cd Projects-React/react-front-app && npm start'

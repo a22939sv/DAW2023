@@ -42,6 +42,7 @@ body::-webkit-scrollbar-thumb {
     overflow-x: auto;
     overflow-y: hidden;
     flex-wrap: nowrap;
+    height: min-content;
 }
 
 .capa::-webkit-scrollbar {
@@ -57,7 +58,7 @@ body::-webkit-scrollbar-thumb {
 
 .image-container {
     position: relative;
-    width: fit-content;
+    width: 180px;
     height: min-content;
     padding-right: 0px;
     padding-left: 0px;

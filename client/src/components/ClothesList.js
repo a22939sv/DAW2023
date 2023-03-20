@@ -13,7 +13,7 @@ const ClothesList = (props) => {
   }, [props.clothes]);
 
   return (
-    <div className="g-0 text-black row capa d-flex align-items-center justify-content-center">
+    <div className="text-black row capa">
       {data.length !== 0
         ? data.map((product, index) =>
             product[1] === props.gender ? (

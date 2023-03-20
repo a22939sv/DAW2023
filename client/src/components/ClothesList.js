@@ -23,7 +23,7 @@ const ClothesList = (props) => {
                 src={`/images/${product[0]}.jpg`}
                 title={product[4]}
                 alt={product[4]}
-                width="150px"
+                width="50%"
               ></img>
               <h4>{product[4]}</h4>
             </div>

@@ -36,7 +36,6 @@ const ClothesList = (props) => {
                 <div class="card-body">
                   <p class="card-text">{product[9]}</p>
                 </div>
-                <h5></h5>
               </div>
             ) : (
               ""

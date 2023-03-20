@@ -41,7 +41,7 @@ body::-webkit-scrollbar-thumb {
 .capa {
     overflow-x: auto;
     overflow-y: hidden;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .capa::-webkit-scrollbar {

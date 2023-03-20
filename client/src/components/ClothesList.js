@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const ClothesList = (props) => {
+  console.log(props.gender);
   const [data, setData] = useState([]);
 
   const formatData = (clothes) => {
@@ -15,7 +16,7 @@ const ClothesList = (props) => {
     <div className="g-0 text-black row capa d-flex align-items-center justify-content-center">
       {data.length !== 0
         ? data.map((product, index) =>
-            product[1] === props.gender.toString() ? (
+            product[1] === props.gender ? (
               <div
                 key={index}
                 className="image-container d-flex flex-column align-items-center justify-content-center m-3"

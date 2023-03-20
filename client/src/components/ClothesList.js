@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 
 const ClothesList = (props) => {
-  console.log(props.gender);
   const [data, setData] = useState([]);
 
   const formatData = (clothes) => {

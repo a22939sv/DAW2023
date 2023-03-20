@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Urbanist:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Inter:wght@100&family=Urbanist:wght@100&display=swap');
+/* font-family: 'Archivo', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Urbanist', sans-serif; */
+
+
+body {
+    margin: 0;
+    font-family: 'Archivo', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    /* background-image: url("https://www.hbomax.com/static/wef/img/bg-gradient.jpg"); */
+    background-color: rgba(0,0,0,.4);
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(3,3,40,.8);
+    border-radius: 15px;
+}
+
+.barraNavegacion {
+    font-size: large;
+    font-weight: bold;
+    background-color: rgba(0,0,0,.2);
+}
+
+.img-carousel {
+    width: 100%;
+    height: 650px;
+}
+
+.caption-carousel {
+    font-size: 500%;
+    font-weight: bolder;
+}
+
+.capa {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: wrap;
+}
+
+.capa::-webkit-scrollbar {
+    background-color: rgba(0,0,0,.3);
+    width: 0px;
+    height: 15px;
+}
+  
+.capa::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,1);
+    border-radius: 15px;
+}
+
+.image-container {
+    position: relative;
+    width: fit-content;
+    padding-right: 0px;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+.pieDePagina {
+    background-color: rgba(0,0,0,.8);
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+@media (max-width: 768px) { 
+    .img-carousel {
+        height: 100%;
+    }    
+}

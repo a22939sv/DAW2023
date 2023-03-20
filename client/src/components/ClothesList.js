@@ -15,7 +15,7 @@ const ClothesList = (props) => {
     <div className="g-0 text-black row capa d-flex align-items-center justify-content-center">
       {data.length !== 0
         ? data.map((product, index) =>
-            product[1] === props.gender ? (
+            product[1] === props.gender.toString() ? (
               <div
                 key={index}
                 className="image-container d-flex flex-column align-items-center justify-content-center m-3"

@@ -9,10 +9,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'pwd'
-                // sh 'rm -rf Projects-React'
-                // sh 'git clone https://github.com/a22939sv/Projects-React.git'
-                // sh 'cd Projects-React/react-front-app && npm install'
+                sh 'rm -rf DAW2023'
+                sh 'git clone https://github.com/a22939sv/DAW2023.git'
+                sh 'cd DAW2023/client && npm install'
             }
         }
         // stage('Test') {

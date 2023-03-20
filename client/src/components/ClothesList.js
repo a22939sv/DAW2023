@@ -35,12 +35,9 @@ const ClothesList = (props) => {
                   className="card-img-top"
                 ></img>
                 <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                  <p class="card-text">{product[9]}</p>
                 </div>
-                <h5>{product[9]}</h5>
+                <h5></h5>
               </div>
             ) : (
               ""

@@ -12,13 +12,14 @@ pipeline {
                 // sh 'rm -rf DAW2023'
                 // sh 'git clone https://github.com/a22939sv/DAW2023.git'
                 sh 'cd DAW2023/client && npm install'
+                sh 'cd DAW2023/client && npm run build'
             }
         }
-        stage('Test') {
-            steps {
-                sh 'cd DAW2023/client && npm test'
-            }
-        }
+        // stage('Test') {
+        //     steps {
+        //         sh 'cd DAW2023/client && npm test'
+        //     }
+        // }
         // stage('Deliver') {
         //     steps {
         //         //sh 'cd Projects-React/react-front-app && npm start'

@@ -9,8 +9,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'rm -rf DAW2023'
-                sh 'git clone https://github.com/a22939sv/DAW2023.git'
+                // sh 'rm -rf DAW2023'
+                // sh 'git clone https://github.com/a22939sv/DAW2023.git'
                 sh 'cd DAW2023/client && npm install'
             }
         }

@@ -31,7 +31,7 @@ const ClothesList = (props) => {
                   src={`/images/${product[0]}.jpg`}
                   title={product[9]}
                   alt={product[9]}
-                  width="180px"
+                  width="150px"
                   className="card-img-top"
                 ></img>
                 <div class="card-body">

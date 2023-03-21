@@ -30,16 +30,20 @@ const NavLink = () => {
           Women
         </a>
       </li>
-      <Dropdown isOpen={dropdown} toggle={abrirCerrarDropdown}>
-        <DropdownToggle caret>Season</DropdownToggle>
+      <li className="nav-item">
+        <a className="nav-link text-black active" href="/" aria-current="page">
+          <Dropdown isOpen={dropdown} toggle={abrirCerrarDropdown}>
+            <DropdownToggle caret>Season</DropdownToggle>
 
-        <DropdownMenu>
-          <DropdownItem>Spring</DropdownItem>
-          <DropdownItem>Summer</DropdownItem>
-          <DropdownItem>Fall</DropdownItem>
-          <DropdownItem>Winter</DropdownItem>
-        </DropdownMenu>
-      </Dropdown>
+            <DropdownMenu>
+              <DropdownItem>Spring</DropdownItem>
+              <DropdownItem>Summer</DropdownItem>
+              <DropdownItem>Fall</DropdownItem>
+              <DropdownItem>Winter</DropdownItem>
+            </DropdownMenu>
+          </Dropdown>
+        </a>
+      </li>
     </ul>
   );
 };

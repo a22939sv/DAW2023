@@ -34,13 +34,18 @@ body::-webkit-scrollbar-thumb {
     transition: 1s;
 }
 
+.inputLogIn:hover {
+    background-color: #fff;
+    color: #000000;
+}
+
 .inputSignIn {
     background-color: #000000;
     color: #fff;
     transition: 1s;
 }
 
-.inputLogIn:hover .inputSignIn:hover {
+.inputSignIn:hover {
     background-color: #fff;
     color: #000000;
 }

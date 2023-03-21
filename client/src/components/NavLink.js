@@ -31,13 +31,13 @@ const NavLink = () => {
         </a>
       </li>
       <Dropdown isOpen={dropdown} toggle={abrirCerrarDropdown}>
-        <DropdownToggle>Dropdown Ejemplo</DropdownToggle>
+        <DropdownToggle caret>Season</DropdownToggle>
 
         <DropdownMenu>
-          <DropdownItem>Accion 1</DropdownItem>
-          <DropdownItem>Accion 2</DropdownItem>
-          <DropdownItem>Accion 3</DropdownItem>
-          <DropdownItem>Accion 4</DropdownItem>
+          <DropdownItem>Spring</DropdownItem>
+          <DropdownItem>Summer</DropdownItem>
+          <DropdownItem>Fall</DropdownItem>
+          <DropdownItem>Winter</DropdownItem>
         </DropdownMenu>
       </Dropdown>
     </ul>

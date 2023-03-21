@@ -31,18 +31,44 @@ const NavLink = () => {
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link text-black active" href="/" aria-current="page">
-          <Dropdown isOpen={dropdown} toggle={abrirCerrarDropdown}>
-            <DropdownToggle caret>Season</DropdownToggle>
+        <Dropdown
+          className="bg-body text-black"
+          isOpen={dropdown}
+          toggle={abrirCerrarDropdown}
+        >
+          <DropdownToggle caret>Season</DropdownToggle>
 
-            <DropdownMenu>
+          <DropdownMenu>
+            <a
+              className="nav-link text-black active"
+              href="/"
+              aria-current="page"
+            >
               <DropdownItem>Spring</DropdownItem>
+            </a>
+            <a
+              className="nav-link text-black active"
+              href="/"
+              aria-current="page"
+            >
               <DropdownItem>Summer</DropdownItem>
+            </a>
+            <a
+              className="nav-link text-black active"
+              href="/"
+              aria-current="page"
+            >
               <DropdownItem>Fall</DropdownItem>
+            </a>
+            <a
+              className="nav-link text-black active"
+              href="/"
+              aria-current="page"
+            >
               <DropdownItem>Winter</DropdownItem>
-            </DropdownMenu>
-          </Dropdown>
-        </a>
+            </a>
+          </DropdownMenu>
+        </Dropdown>
       </li>
     </ul>
   );

@@ -31,6 +31,9 @@ body::-webkit-scrollbar-thumb {
 .inputLogIn {
     background-color: #000000;
     color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-right: 5px;
     transition: 1s;
 }
 
@@ -42,6 +45,8 @@ body::-webkit-scrollbar-thumb {
 .inputSignIn {
     background-color: #000000;
     color: #fff;
+    border: none;
+    border-radius: 10px;
     transition: 1s;
 }
 

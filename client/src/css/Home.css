@@ -31,6 +31,7 @@ body::-webkit-scrollbar-thumb {
 .dropdownMenu {
     background: none !important;
     border: none !important;
+    font-weight: bold !important;
     color: #000000 !important;
 }
 

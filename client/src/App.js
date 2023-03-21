@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" Component={Home} />
-        <Route path="/men" Component={Men} />
+        <Route path="/" Component={Men} />
         <Route path="*" Component={NotFound} />
       </Routes>
     </BrowserRouter>

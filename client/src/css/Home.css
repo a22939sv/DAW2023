@@ -32,14 +32,15 @@ body::-webkit-scrollbar-thumb {
     background-color: #000000;
     color: #fff;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-right: 5px;
     transition: 1s;
 }
 
 .inputLogIn:hover {
-    background-color: #fff;
+    background-color: rgba(0,0,0,.2);
     color: #000000;
+    border: 1px solid #000000;
 }
 
 .inputSignIn {
@@ -51,8 +52,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .inputSignIn:hover {
-    background-color: #fff;
+    background-color: rgba(0,0,0,.2);
     color: #000000;
+    border: 1px solid #000000;
 }
 
 .img-carousel {

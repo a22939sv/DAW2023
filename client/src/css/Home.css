@@ -58,8 +58,6 @@ body::-webkit-scrollbar-thumb {
 
 .image-container {
     position: relative;
-    width: 180px;
-    height: min-content;
     padding-right: 0px;
     padding-left: 0px;
     cursor: pointer;

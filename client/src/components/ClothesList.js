@@ -24,13 +24,12 @@ const ClothesList = (props) => {
             product[6] === props.season ? (
               <div
                 key={index}
-                className="card image-container d-flex flex-column align-items-center justify-content-center m-3"
+                className="card image-container d-flex flex-column align-items-center justify-content-center m-2"
               >
                 <img
                   src={`/images/${product[0]}.jpg`}
                   title={product[9]}
                   alt={product[9]}
-                  width="150px"
                   className="card-img-top"
                 ></img>
                 <div class="card-body">

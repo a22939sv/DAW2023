@@ -1,7 +1,7 @@
 import React from "react";
 import LogoBox from "../components/LogoBox";
 import NavLink from "./NavLink";
-import SearchBox from "./SearchBox";
+import StartBox from "./StartBox";
 
 const NavBar = () => {
   return (
@@ -10,7 +10,7 @@ const NavBar = () => {
         <LogoBox />
         <div className="navbar-collapse" id="navbarSupportedContent">
           <NavLink />
-          <SearchBox />
+          <StartBox />
         </div>
       </div>
     </nav>

@@ -30,7 +30,12 @@ body::-webkit-scrollbar-thumb {
 
 .dropdownMenu {
     background: none;
-    color: text-black;
+    border: none;
+    color: #000000;
+}
+
+.dropdownMenu:hover {
+    background-color: none;
 }
 
 .inputLogIn {

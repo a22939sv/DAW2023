@@ -32,8 +32,8 @@ body::-webkit-scrollbar-thumb {
     background: none !important;
     border: none !important;
     font-weight: bold !important;
-    font-size: larger;
-    margin-top: 4px;
+    font-size: large;
+    margin-top: 3px;
     color: #000000 !important;
 }
 

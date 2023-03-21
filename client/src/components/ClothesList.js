@@ -4,7 +4,7 @@ const ClothesList = (props) => {
   const [data, setData] = useState([]);
 
   const formatData = (clothes) => {
-    setData(clothes.slice(0, 100));
+    setData(clothes.slice(0, 10));
   };
 
   useEffect(() => {
@@ -21,7 +21,7 @@ const ClothesList = (props) => {
     <div className="text-black row capa">
       {data.length !== 0
         ? data.map((product, index) =>
-            product[6] === props.season ? (
+            product[6] === props.season || product[1] === props.gender ? (
               <div
                 key={index}
                 className="card image-container d-flex flex-column align-items-center justify-content-center m-2"

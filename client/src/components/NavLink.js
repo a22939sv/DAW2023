@@ -32,11 +32,13 @@ const NavLink = () => {
       </li>
       <li className="nav-item">
         <Dropdown
-          className="dropdownMenu text-black"
+          className="dropdownMenu"
           isOpen={dropdown}
           toggle={abrirCerrarDropdown}
         >
-          <DropdownToggle caret>Season</DropdownToggle>
+          <DropdownToggle className="bg-black text-black" caret>
+            Season
+          </DropdownToggle>
 
           <DropdownMenu>
             <a

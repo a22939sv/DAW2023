@@ -32,7 +32,7 @@ const NavLink = () => {
       </li>
       <li className="nav-item">
         <Dropdown
-          className="bg-body text-black"
+          className="dropdownMenu text-black"
           isOpen={dropdown}
           toggle={abrirCerrarDropdown}
         >

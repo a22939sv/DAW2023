@@ -28,6 +28,11 @@ body::-webkit-scrollbar-thumb {
     background-color: rgba(0,0,0,.2);
 }
 
+.dropdownMenu {
+    background: none;
+    color: text-black;
+}
+
 .inputLogIn {
     background-color: #000000;
     color: #fff;

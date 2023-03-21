@@ -29,13 +29,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .dropdownMenu {
-    background: none;
-    border: none;
-    color: #000000;
-}
-
-.dropdownMenu:hover {
-    background: none;
+    background: none !important;
+    border: none !important;
+    color: #000000 !important;
 }
 
 .inputLogIn {

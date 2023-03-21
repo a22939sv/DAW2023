@@ -21,7 +21,11 @@ const NavLink = () => {
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link text-black active" href="/" aria-current="page">
+        <a
+          className="nav-link text-black active"
+          href="/men"
+          aria-current="page"
+        >
           Men
         </a>
       </li>

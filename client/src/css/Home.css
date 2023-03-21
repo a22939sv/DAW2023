@@ -32,7 +32,7 @@ body::-webkit-scrollbar-thumb {
     background: none !important;
     border: none !important;
     font-weight: bold !important;
-    margin-top: 5px;
+    margin-top: 4px;
     color: #000000 !important;
 }
 

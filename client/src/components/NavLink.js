@@ -31,12 +31,8 @@ const NavLink = () => {
         </a>
       </li>
       <li className="nav-item">
-        <Dropdown
-          className="dropdownMenu"
-          isOpen={dropdown}
-          toggle={abrirCerrarDropdown}
-        >
-          <DropdownToggle className="bg-black text-black" caret>
+        <Dropdown isOpen={dropdown} toggle={abrirCerrarDropdown}>
+          <DropdownToggle className="dropdownMenu" caret>
             Season
           </DropdownToggle>
 
